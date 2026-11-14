@@ -1,0 +1,23 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "bme/bme280.c"
+        "bme/bme280_sensor.c"
+        "wifi/wifi.c"
+        "mqtt/mqtt.c"
+        "app_controller/app_controller.c"
+    INCLUDE_DIRS
+        "."
+        "bme"
+        "wifi"
+        "mqtt"
+        "app_controller"
+    REQUIRES
+        esp_driver_i2c
+        esp_driver_gpio
+        esp_wifi
+        esp_event
+        esp_netif
+        nvs_flash
+        mqtt
+)
