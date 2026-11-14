@@ -66,8 +66,6 @@ You need to provide:
 - Adafruit IO key
 - Measurement interval
 
-**Important:** Do not commit real Wi-Fi credentials or Adafruit IO keys to a public repository. Keep your private configuration out of Git.
-
 ## Building and Flashing
 
 The project requires ESP-IDF v6.1 and its toolchain.
@@ -102,7 +100,3 @@ The basic functionality has been implemented and tested:
 - Deep Sleep measurement cycle
 
 Long-term stability and power consumption testing are ongoing.
-
-## License
-
-Add a project license here if you intend to distribute the source code.
